@@ -349,7 +349,8 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`2play | Gang Server`,"http://twitch.tv/Death Shop")
+client.user.setActivity("2play | Gang server", {type: 'PLAYING'});
+
 client.user.setStatus("dnd")
 });
 
